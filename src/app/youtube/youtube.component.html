@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+<div class="container-fluid total">
+
+<!-- HEADER -->
+  <header class="fixed-top">
+    <h2>EFFECTUBE</h2>
+</header>
+
+
+<!-- MAIN VIDEO -->
+  <div class="row">
+    <div class="col-md-8 mainvideo">
+      <iframe width="100%" height="600px" allow="autoplay" [src]="urlSafe"></iframe>
+      <p style="font-size: 30px; font-weight:bold;">{{title}}</p>
+    </div>
+
+
+    <!-- VIDEO LIST -->
+<div class="col-md-3 offset-1 playlist active">
+
+  <div (click)="playvideo()" id="a1" >
+    <img src="https://i.ytimg.com/vi/k5E2AVpwsko/maxresdefault.jpg" height="100%" width="100%">
+    <!-- <div class="playbutton">
+      <img src="https://cdn-icons-png.flaticon.com/512/2285/2285073.png" alt="">
+    </div> -->
+   <p  [(ngModel)]="heading"><h4>VIDEO 1</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo1()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading1">VIDEO 2</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo2()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading2">VIDEO 3</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo3()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading3">VIDEO 4</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo4()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading4">VIDEO 5</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo5()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading5">VIDEO 6</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo6()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading6">VIDEO 7</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo7()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <h4 [(ngModel)]="heading7">VIDEO 8</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+  <div (click)="playvideo8()" id="a1">
+    <img src="https://opensource.google/images/projects/os-projects-angular_thumbnail.png" height="100%" width="100%">
+    <span></span>
+    <span></span>
+    <h4 [(ngModel)]="heading8">VIDEO 9</h4>
+        <p>430,324 views  9 Sept 2020</p>
+        <p> Angular is arguably the most advanced frontend JavaScript framework ever created. Learn the basics of Angular in 100 Seconds.</p>
+  </div><hr>
+
+
+</div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+
+  
+</html>

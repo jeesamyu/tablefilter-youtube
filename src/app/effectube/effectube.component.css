@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #fbde68;
+} 
+header{
+    background-color: #52c4f8;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 80px;
+    border-bottom:1px solid black ;
+}
+
+
+
+  #myVideo{
+    margin-top: 10px;
+   
+  }
+
+
+  #subvideo{
+    margin-top: 90px;
+  }
+
+  #mainvideo{
+    margin-top: 90px;
+    min-height: 500px;
+  }
+/* 
+  @media(max-width:1500px) {
+    #mainvideo{
+      width: 100%;
+    }
+    
+  } */
+  
+
+  .main-container{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 25%;
+    border: 1px solid black;
+    top: 20px;
+    margin-bottom: 50px;
+  
+  }
+  
